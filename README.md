@@ -2,16 +2,16 @@
 
 This is the working area for the individual Internet-Draft, "Applicability Statement for the AS112 Project".
 
-* [Editor's Copy](https://ableyjoe.github.io/draft-jabley-as112-applicability/#go.draft-jabley-dnsop-as112-applicability.html)
+* [Editor's Copy](https://ableyjoe.github.io/draft-jabley-dnsop-as112-applicability/#go.draft-jabley-dnsop-as112-applicability.html)
 * [Datatracker Page](https://datatracker.ietf.org/doc/draft-jabley-dnsop-as112-applicability)
 * [Individual Draft](https://datatracker.ietf.org/doc/html/draft-jabley-dnsop-as112-applicability)
-* [Compare Editor's Copy to Individual Draft](https://ableyjoe.github.io/draft-jabley-as112-applicability/#go.draft-jabley-dnsop-as112-applicability.diff)
+* [Compare Editor's Copy to Individual Draft](https://ableyjoe.github.io/draft-jabley-dnsop-as112-applicability/#go.draft-jabley-dnsop-as112-applicability.diff)
 
 
 ## Contributing
 
 See the
-[guidelines for contributions](https://github.com/ableyjoe/draft-jabley-as112-applicability/blob/main/CONTRIBUTING.md).
+[guidelines for contributions](https://github.com/ableyjoe/draft-jabley-dnsop-as112-applicability/blob/main/CONTRIBUTING.md).
 
 Contributions can be made by creating pull requests.
 The GitHub interface supports creating pull requests using the Edit (✏) button.
