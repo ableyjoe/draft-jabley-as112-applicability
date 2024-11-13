@@ -1,0 +1,163 @@
+
+
+
+
+Domain Name System Operations                                   J. Abley
+Internet-Draft                                                Cloudflare
+Intended status: Informational                                 W. Kumari
+Expires: 17 May 2025                                        Google, Inc.
+                                                        13 November 2024
+
+
+             Applicability Statement for the AS112 Project
+             draft-jabley-dnsop-as112-applicability-latest
+
+Abstract
+
+   The AS112 Project provides infrastructure that is used as a target
+   for DNS queries that it is not possible to answer in a useful way,
+   such as queries that relate to a private network that are sent to a
+   public server.  From time to time IETF protocols specify use of the
+   AS112 Project.  This document provides an Applicability Statement for
+   the AS112 Project that aims to provide guidance for how and when the
+   AS112 Project should be used.
+
+About This Document
+
+   This note is to be removed before publishing as an RFC.
+
+   Status information for this document may be found at
+   https://datatracker.ietf.org/doc/draft-jabley-dnsop-
+   as112-applicability/.
+
+   Discussion of this document takes place on the Domain Name System
+   Operations Working Group mailing list (mailto:dnsop@ietf.org), which
+   is archived at https://mailarchive.ietf.org/arch/browse/dnsop/.
+   Subscribe at https://www.ietf.org/mailman/listinfo/dnsop/.
+
+   Source for this draft and an issue tracker can be found at
+   https://github.com/ableyjoe/draft-jabley-as112-applicability.
+
+Status of This Memo
+
+   This Internet-Draft is submitted in full conformance with the
+   provisions of BCP 78 and BCP 79.
+
+   Internet-Drafts are working documents of the Internet Engineering
+   Task Force (IETF).  Note that other groups may also distribute
+   working documents as Internet-Drafts.  The list of current Internet-
+   Drafts is at https://datatracker.ietf.org/drafts/current/.
+
+   Internet-Drafts are draft documents valid for a maximum of six months
+   and may be updated, replaced, or obsoleted by other documents at any
+   time.  It is inappropriate to use Internet-Drafts as reference
+   material or to cite them other than as "work in progress."
+
+   This Internet-Draft will expire on 17 May 2025.
+
+Copyright Notice
+
+   Copyright (c) 2024 IETF Trust and the persons identified as the
+   document authors.  All rights reserved.
+
+   This document is subject to BCP 78 and the IETF Trust's Legal
+   Provisions Relating to IETF Documents (https://trustee.ietf.org/
+   license-info) in effect on the date of publication of this document.
+   Please review these documents carefully, as they describe your rights
+   and restrictions with respect to this document.  Code Components
+   extracted from this document must include Revised BSD License text as
+   described in Section 4.e of the Trust Legal Provisions and are
+   provided without warranty as described in the Revised BSD License.
+
+Table of Contents
+
+   1.  Introduction
+   2.  Terminology
+   3.  Security Considerations
+   4.  IANA Considerations
+   5.  References
+     5.1.  Normative References
+     5.2.  Informative References
+   Acknowledgments
+   Authors' Addresses
+
+1.  Introduction
+
+   Well, how about this?
+
+2.  Terminology
+
+   The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
+   "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and
+   "OPTIONAL" in this document are to be interpreted as described in
+   BCP 14 [RFC2119] [RFC8174] when, and only when, they appear in all
+   capitals, as shown here.
+
+   This document uses terminology related to the Domain Name System as
+   described in [RFC8499].
+
+3.  Security Considerations
+
+   Make reference to the existing security guidance.
+
+   Provide guidance on when sinking queries with the AS112 project is
+   appropriate, and when it is not.  For example, note that causing
+   queries to be redirected to AS112 servers can present privacy risks.
+
+   Note that protocols that intend to cause queries to be sent to AS112
+   servers should do so carefully, mindful that excessive traffic being
+   sent to any destination can have the effect of denying service to
+   both AS112 infrastructure and intermediate networks and systems.
+
+4.  IANA Considerations
+
+   Give IANA directions about how to respond to requests from other
+   documents that relate to AS112.
+
+   Note that since there are known cases of protocols that specify that
+   queries for particular names in the ARPA domain be redirected to
+   AS112 infrastructure, the IANA should start the process of becoming
+   equipped to provision DNAME RRSets in the ARPA zone.  Perhaps clarify
+   that the provisioning process involves ancilliary systems and
+   processes and is not simply a matter of support for the DNAME
+   resource record type in the servers that serve the ARPA zone.
+
+5.  References
+
+5.1.  Normative References
+
+   [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
+              Requirement Levels", BCP 14, RFC 2119,
+              DOI 10.17487/RFC2119, March 1997,
+              <https://www.rfc-editor.org/rfc/rfc2119>.
+
+   [RFC8174]  Leiba, B., "Ambiguity of Uppercase vs Lowercase in RFC
+              2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
+              May 2017, <https://www.rfc-editor.org/rfc/rfc8174>.
+
+5.2.  Informative References
+
+   [RFC8499]  Hoffman, P., Sullivan, A., and K. Fujiwara, "DNS
+              Terminology", RFC 8499, DOI 10.17487/RFC8499, January
+              2019, <https://www.rfc-editor.org/rfc/rfc8499>.
+
+Acknowledgments
+
+   These people helped.  Yes.
+
+Authors' Addresses
+
+   Joe Abley
+   Cloudflare
+   Amsterdam
+   Netherlands
+   Email: jabley@cloudflare.com
+
+
+   Warren Kumari
+   Google, Inc.
+   1600 Amphitheatre Parkway
+   Mountain View,  94043
+   United States of America
+   Phone: +1 571 748 4373
+   Email: warren@kumari.net
