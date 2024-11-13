@@ -9,17 +9,17 @@ number:
 date:
 consensus: true
 v: 3
-area: AREA
-workgroup: WG Working Group
+area: "Operations and Management"
+workgroup: "Domain Name System Operations"
 keyword:
  - next generation
  - unicorn
  - sparkling distributed ledger
 venue:
-  group: dnsop
-  type: Working Group
-  mail: dnsop@example.com
-  github: ableyjoe/draft-jabley-dnsop-as112-applicability
+  group: "Domain Name System Operations"
+  type: "Working Group"
+  mail: "dnsop@ietf.org"
+  github: "ableyjoe/draft-jabley-as112-applicability"
 
 author:
  -
