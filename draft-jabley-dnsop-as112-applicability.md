@@ -90,4 +90,4 @@ Note that since there are known cases of protocols that specify that queries for
 # Acknowledgments
 {:numbered="false"}
 
-These people helped.
+These people helped. Yes.
